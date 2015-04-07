@@ -97,7 +97,7 @@ int main(int argc, char *argv[]){
 	}
 	fclose(archivo1);
 
-	printf("\n\n");
+	printf("\n");
 	printf("%s\n", "Datos ingresador");
 	imprimirarray(array, contador);
  	printf("\n\n");
@@ -123,9 +123,9 @@ int main(int argc, char *argv[]){
 
 	printf("\n");
 
-	/*char* g = "plot x";
-	char* z = "hola";
-	graficar(g, z);*/
+	char* g = "plot (x)";
+	char* z = "grafica";
+	graficar(g, z);
 
 	return 0;
 }
